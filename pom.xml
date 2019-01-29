@@ -13,6 +13,7 @@
         <module>zuul-gateway-9527</module>
         <module>basic-parent</module>
         <module>plat-parent</module>
+        <module>config-server-1299</module>
     </modules>
 
 
