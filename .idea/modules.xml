@@ -4,11 +4,19 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/basic-parent/basic-parent.iml" filepath="$PROJECT_DIR$/basic-parent/basic-parent.iml" />
       <module fileurl="file://$PROJECT_DIR$/basic-parent/basic-util/basic-util.iml" filepath="$PROJECT_DIR$/basic-parent/basic-util/basic-util.iml" />
+      <module fileurl="file://$PROJECT_DIR$/code-generator/code-generator.iml" filepath="$PROJECT_DIR$/code-generator/code-generator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common-parent/common-interface/common-interface.iml" filepath="$PROJECT_DIR$/common-parent/common-interface/common-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common-parent/common-parent.iml" filepath="$PROJECT_DIR$/common-parent/common-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common-parent/common-service/common-service.iml" filepath="$PROJECT_DIR$/common-parent/common-service/common-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/config-server-1299/config-server-1299.iml" filepath="$PROJECT_DIR$/config-server-1299/config-server-1299.iml" />
       <module fileurl="file://$PROJECT_DIR$/easytobuy-parent.iml" filepath="$PROJECT_DIR$/easytobuy-parent.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka-server-7001/eureka-server-7001.iml" filepath="$PROJECT_DIR$/eureka-server-7001/eureka-server-7001.iml" />
       <module fileurl="file://$PROJECT_DIR$/plat-parent/plat-interface/plat-interface.iml" filepath="$PROJECT_DIR$/plat-parent/plat-interface/plat-interface.iml" />
       <module fileurl="file://$PROJECT_DIR$/plat-parent/plat-parent.iml" filepath="$PROJECT_DIR$/plat-parent/plat-parent.iml" />
       <module fileurl="file://$PROJECT_DIR$/plat-parent/plat-service-8001/plat-service-8001.iml" filepath="$PROJECT_DIR$/plat-parent/plat-service-8001/plat-service-8001.iml" />
+      <module fileurl="file://$PROJECT_DIR$/product-parent/product-interface/product-interface.iml" filepath="$PROJECT_DIR$/product-parent/product-interface/product-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/product-parent/product-parent.iml" filepath="$PROJECT_DIR$/product-parent/product-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/product-parent/product-service/product-service.iml" filepath="$PROJECT_DIR$/product-parent/product-service/product-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/zuul-gateway-9527/zuul-gateway-9527.iml" filepath="$PROJECT_DIR$/zuul-gateway-9527/zuul-gateway-9527.iml" />
     </modules>
   </component>

@@ -1,19 +1,30 @@
 package cn.etb.easytobuy.util;
 
-
+/**
+ * @author yaohuaipeng
+ * @date 2018/10/15-16:50
+ */
 public class AjaxResult {
+    private Boolean success = true;
+    private String message = "操作成功";
+    private Object retObj = null;
 
-    private boolean success;//结果
+    public static AjaxResult me(){
+        return new AjaxResult();
+    }
 
-    private String message;//提示信息
+    public AjaxResult() {
+    }
 
-    private Object returnData;//后端返回到前端的数据
+    public AjaxResult(String message) {
+        this.message = message;
+    }
 
-    public boolean isSuccess() {
+    public Boolean getSuccess() {
         return success;
     }
 
-    public AjaxResult setSuccess(boolean success) {
+    public AjaxResult setSuccess(Boolean success) {
         this.success = success;
         return this;
     }
@@ -27,17 +38,12 @@ public class AjaxResult {
         return this;
     }
 
-    public Object getReturnData() {
-        return returnData;
+    public Object getRetObj() {
+        return retObj;
     }
 
-    public AjaxResult setReturnData(Object returnData) {
-        this.returnData = returnData;
+    public AjaxResult setRetObj(Object retObj) {
+        this.retObj = retObj;
         return this;
     }
-
-    public static AjaxResult getAjaxResult(){
-        return new AjaxResult();
-    }
-
 }

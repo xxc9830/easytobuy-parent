@@ -7,11 +7,17 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="basic-util" />
+        <module name="code-generator" />
+        <module name="common-interface" />
+        <module name="common-service" />
+        <module name="config-server-1299" />
         <module name="easytobuy-eureka-7001" />
         <module name="eureka-server-7001" />
         <module name="plat-interface" />
         <module name="plat-service" />
         <module name="plat-service-8001" />
+        <module name="product-interface" />
+        <module name="product-service" />
         <module name="zuul-gateway" />
         <module name="zuul-gateway-9527" />
       </profile>
@@ -19,6 +25,11 @@
     <bytecodeTargetLevel>
       <module name="basic-parent" target="1.8" />
       <module name="basic-util" target="1.8" />
+      <module name="code-generator" target="1.8" />
+      <module name="common-interface" target="1.8" />
+      <module name="common-parent" target="1.8" />
+      <module name="common-service" target="1.8" />
+      <module name="config-server-1299" target="1.8" />
       <module name="easytobuy-eureka-7001" target="1.8" />
       <module name="easytobuy-parent" target="1.8" />
       <module name="eureka-server-7001" target="1.8" />
@@ -27,6 +38,9 @@
       <module name="plat-service" target="1.8" />
       <module name="plat-service (1)" target="1.8" />
       <module name="plat-service-8001" target="1.8" />
+      <module name="product-interface" target="1.8" />
+      <module name="product-parent" target="1.8" />
+      <module name="product-service" target="1.8" />
       <module name="zuul-gateway" target="1.8" />
       <module name="zuul-gateway-9527" target="1.8" />
     </bytecodeTargetLevel>

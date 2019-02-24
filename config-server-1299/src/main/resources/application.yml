@@ -9,10 +9,17 @@ eureka:
 spring:
   application:
     name: config-server
+  profiles:
+    active: native #设置为本地启动的方式，而不是通过git
   cloud:
     config:
       server:
-        git:
-          uri: https://github.com/solargen/aigou-config.git
-          username: xxc9830
-          password: xxc.9830
+        native:
+          search-locations: file:D:/JetBrains/IdeaProjects/git/etb-spring-cloud-config
+  #cloud:
+    #config:
+      #server:
+        #git:
+          #uri: https://github.com/solargen/aigou-config.git
+          #username: xxc9830
+          #password: xxc.9830

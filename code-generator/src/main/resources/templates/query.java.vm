@@ -1,0 +1,11 @@
+package cn.etb.easytobuy.query;
+
+import cn.etb.easytobuy.util.BaseQuery;
+
+/**
+ *
+ * @author ${author}
+ * @since ${date}
+ */
+public class ${table.entityName}Query extends BaseQuery{
+}

@@ -1,0 +1,21 @@
+spring:
+  profiles:
+      active: dev
+  cloud:
+    config:
+      name: application-product #github上面名称
+      profile: ${spring.profiles.active} #环境 java -jar -D xxx jar
+      label: ""  #分支master
+      #uri: http://127.0.0.1:1299 #配置服务器 单机配置
+      discovery:
+        enabled: true
+        service-id: config-server #配置中心服务器集群配置
+eureka: #如果配置中心服务器做了集群，那么eurka的配置不能放到远程配置仓库中
+  client:
+    service-url:
+      defaultZone: http://localhost:7001/eureka
+  instance:
+    instance-id: product-8003.com
+    prefer-ip-address: true
+mybatis-plus:
+    type-aliases-package: cn.etb.easytobuy.domain,cn.etb.easytobuy.query,cn.etb.easytobuy.domain.ProductType

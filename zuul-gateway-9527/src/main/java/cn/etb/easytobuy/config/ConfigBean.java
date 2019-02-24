@@ -22,7 +22,7 @@ public class ConfigBean {
         return new ApiInfoBuilder()
                 .title("轻松购电商平台系统")
                 .description("轻松购电商平台接口文档说明")
-                .contact(new Contact("xxc", "", "12345@qq.com"))
+                .contact(new Contact("xxc", "", "1258345660@qq.com"))
                 .version("1.0")
                 .build();
     }

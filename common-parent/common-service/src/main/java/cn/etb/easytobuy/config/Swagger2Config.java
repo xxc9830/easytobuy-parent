@@ -9,18 +9,25 @@ import springfox.documentation.service.ApiInfo;
 import springfox.documentation.service.Contact;
 import springfox.documentation.spi.DocumentationType;
 import springfox.documentation.spring.web.plugins.Docket;
-import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
+/**
+ * Copyright (C), 2018-2028, Chong Qing itsource.cn
+ * FileName: Swagger2Config.java
+ * introduce：
+ *
+ * @author solargen
+ * @version 1.00
+ * @Date 2019/2/15
+ */
 @SpringBootConfiguration
-@EnableSwagger2//启动swagger生成接口文档
-public class ConfigBean {
+public class Swagger2Config {
+
     @Bean
     public Docket createRestApi() {
         return new Docket(DocumentationType.SWAGGER_2)
                 .apiInfo(apiInfo())
                 .select()
-                //需要生成接口文档的包（controller所在的包）
-                .apis(RequestHandlerSelectors.basePackage("cn.etb.easytobuy.web.controller"))
+                .apis(RequestHandlerSelectors.basePackage("cn.etb.easytobuy.controller"))
                 .paths(PathSelectors.any())
                 .build();
     }
@@ -28,9 +35,9 @@ public class ConfigBean {
 
     private ApiInfo apiInfo() {
         return new ApiInfoBuilder()
-                .title("平台服务api")
-                .description("平台服务接口文档说明")
-                .contact(new Contact("xxc", "", "12345@qq.com"))
+                .title("公共服务api")
+                .description("公共服务接口文档说明")
+                .contact(new Contact("xxc", "", "1258345660@qq.com"))
                 .version("1.0")
                 .build();
     }
